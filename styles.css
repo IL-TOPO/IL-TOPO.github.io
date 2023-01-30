@@ -177,11 +177,11 @@ p {
     margin: 20px 0;
 }
 
-.sobre_mi .box .años_trabajados {
+.sobre_mi .box .anios_trabajados {
     min-width: 150px;
 }
 
-.sobre_mi .box .años_trabajados h5 {
+.sobre_mi .box .anios_trabajados h5 {
     text-transform: uppercase;
     color: #848c90;
     font-weight: 600;
