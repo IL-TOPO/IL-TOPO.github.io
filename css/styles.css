@@ -32,8 +32,22 @@ body {
 /** Informacion de contacto y educación */
 .container .lado_izquierdo {
     position: relative;
-    background: #000080;
+    background: linear-gradient(-45deg, #000042, #00006b, #000080, #000042, #000094, #0000bd, black);
     padding: 40px;
+    animation: movimiento 20s ease-in infinite;
+    background-size: 500%;
+}
+
+@keyframes movimiento {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .perfil {
